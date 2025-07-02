@@ -9,6 +9,20 @@
 				"inputs": [],
 				"name": "fund",
 				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getConversionRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -48,11 +62,11 @@
 	},
 	"sources": {
 		"FundMe.sol": {
-			"keccak256": "0xb4704ed6609f6e681e395517f559ff60f8f625a9f875425a3e013f64218f148e",
+			"keccak256": "0x187627334964591bef5928da63cd5f29c52b7fe2f2f23222028546f1447f62eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b4affdcc634a39902555c2d2a756eda87e29375ff7d6bdf6881fdc52135e622f",
-				"dweb:/ipfs/QmShjEjHYHHCoBPkiBu6fz9KrhM8CYyRqeGsgUUhtEPzbR"
+				"bzz-raw://194a75dac99fe5324dbd54ac641eacd2c57ec5ac9797cb0b6938e33a97e60895",
+				"dweb:/ipfs/QmQkrMVRd4Datj29HqTBSBvZpxtNwmeECM1whP7YCJPHdC"
 			]
 		}
 	},
