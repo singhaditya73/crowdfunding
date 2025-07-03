@@ -21,5 +21,9 @@ contract FundMe {
         (,int256 answer,,,)= priceFeed.latestRoundData();
         return uint256(answer * 1e10);
     }
-    function getConversionRate() public {}
+    function getConversionRate(uint256 ethAmount) public view returns (uint256){
+        uint256 ethPrice = getPrice();
+        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1e18;
+        return ethAmountInUsd;
+    }
 }
